@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="21.0" layoutY="23.0" prefHeight="361.0" prefWidth="641.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="199.0" text="Name" />
+          <TableColumn fx:id="phoneColumn" prefWidth="186.0" text="Phone " />
+            <TableColumn fx:id="emailColumn" prefWidth="255.0" text="Email" />
+        </columns>
+      </TableView>
+      <Button layoutX="21.0" layoutY="403.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="123.0" text="Add Contact" />
+   </children>
+</AnchorPane>
